@@ -1,0 +1,56 @@
+.main_title {
+
+  color : white;
+  text-align : center
+
+}
+
+.pictures {
+  display: inline;
+}
+
+.dad {
+  border : 20px solid;
+}
+
+.mom {
+  border : 20px solid;
+}
+
+.both {
+
+  border : 20px solid;
+  margin-top : 16%
+
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.table {
+  background-color : white;
+  width : 31%;
+}
+
+h1 {
+
+  color : white;
+
+}
+
+td {
+  text-align : center;
+}
+
+
+body {
+
+  background-image : url(stars.jpg);
+  background-size : cover;
+}
