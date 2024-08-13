@@ -5,41 +5,34 @@
 
 }
 
+
+
 .pictures {
   display: inline;
 }
 
 .dad {
-  border : 20px solid;
+  border : 10px solid;
   color: #A9C5DB
 }
 
 .mom {
-  border : 20px solid;
-  color : #A9C5DB
+  border :10px solid;
+  color : #A9C5DB;
+  
 }
 
 .both {
 
-  border : 20px solid;
-  margin-top : 16%;
+  border : 10px solid;
   color : #04a5e5
 
 }
 
-.row {
-  display: flex;
-}
-
-.column {
-  flex: 33.33%;
-  padding: 5px;
-}
-
-
 .parent_header {
 
   color : #A9C5DB;
+  font-size : 30px
 
 }
 
@@ -49,43 +42,72 @@
 
 }
 
-.table_name {
+.dad_table {
 
   text-align : center;
   border : 1px inset gray;
-  color : #
 
 }
 
 .table_header {
 
   text-align : center;
-  border : 1px inset gray;
-  color : #A9C5DB
+  border : 5px inset black;
+  color : #A9C5DB;
 
 }
 
 .body_table {
   text-align : center;
-  border : 1px inset gray;
+  border : 5px inset black;
   color : whitesmoke;
+  width : 50%
 }
 
 
 body {
-
-  background-image : url(ocean1.gif);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  background-image : url(images/ocean1.gif);
   background-size : cover;
 }
 
 .table {
   background-color : #04a5e5;
-  width : 31%;
-  margin :
   border-color: black;
 }
 
-.mom_vid {
+.picture_cell {
 
+  align-self: center;
+
+}
+
+.mom_vid {
   float: right;
+}
+
+.vids {
+  width: 100%;
+  display: default
+}
+
+a:link {
+
+  color :red
+
+}
+
+a:visited {
+
+  color :purple;
+
+}
+
+a:hover {
+
+  color:pink
+
 }
