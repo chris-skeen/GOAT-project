@@ -1,113 +1,231 @@
-.main_title {
-
-  color : black;
-  text-align : center
-
-}
-
-
-
-.pictures {
-  display: inline;
-}
-
-.dad {
-  border : 10px solid;
-  color: #A9C5DB
-}
-
-.mom {
-  border :10px solid;
-  color : #A9C5DB;
-  
-}
-
-.both {
-
-  border : 10px solid;
-  color : #04a5e5
-
-}
-
-.parent_header {
-
-  color : #A9C5DB;
-  font-size : 30px
-
-}
-
-.summary {
-  text-align : center;
-  color : whitesmoke ;
-
-}
-
-.dad_table {
-
-  text-align : center;
-  border : 1px inset gray;
-
-}
-
-.table_header {
-
-  text-align : center;
-  border : 5px inset black;
-  color : #A9C5DB;
-
-}
-
-.body_table {
-  text-align : center;
-  border : 5px inset black;
-  color : whitesmoke;
-  width : 50%
-}
-
-
 body {
+  background-image: url(images/mountain.jpg);
+  background-size: 320%;
+  background-repeat: no-repeat;
+
+}
+
+.main-header-container {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  flex-direction: column;
-  background-image : url(images/ocean1.gif);
-  background-size : cover;
+  justify-content: center;
+  color: rgb(115, 115, 214)
 }
 
-.table {
-  background-color : #04a5e5;
-  border-color: black;
+.mom-pic {
+  width: 20%;
+  height: 20%;
+  border: 10px ridge white;
+  border-radius: 45%;
+  border-color: rgb(240, 118, 118)
 }
 
-.picture_cell {
+.my-mother {
+  position: relative;
+  left: 90px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+  color: rgb(240, 118, 118)
+}
 
-  align-self: center;
+.mom-name {
+  position: relative;
+  left: 67px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+  color: rgb(240, 118, 118)
+}
+
+.mom-summary-container {
+  position: relative;
+  bottom: 480px;
+  left: 320px;
+  width: 38%;
+}
+
+.mom-summary-header {
+  color: rgb(240, 118, 118)
 
 }
 
-.mom_vid {
-  float: right;
-}
-
-.vids {
-  width: 100%;
-  display: default
-}
-
-a:link {
-
-  color :red
+.mom-summary {
+  color: rgb(115, 115, 214)
 
 }
 
-a:visited {
-
-  color :purple;
-
+.mom-table-container {
+  position: relative;
+  left: 320px;
+  bottom: 489px;
 }
 
-a:hover {
+.mom-table {
+  border: 5px inset rgb(115, 115, 214);
+  width: 38%;
+  background-color: rgb(240, 118, 118)
+}
 
-  color:pink
+.mom-table-header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+  color: rgb(115, 115, 214);
+}
 
+.mom-vh-container {
+  position: relative;
+  left: 878px;
+  bottom: 905px;
+}
+
+.mom-vh {
+  color: rgb(240, 118, 118)
+}
+
+
+.mom-v-container {
+  position: relative;
+  left: 878px;
+  bottom: 850px;
+}
+
+/*DAD*/
+
+.my-father {
+  position: relative;
+  left: 1215px;
+  bottom: 650px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+  color: rgb(115, 115, 214)
+}
+
+.dad-pic {
+  width: 20%;
+  height: 20%;
+  border: 10px ridge rgb(115, 115, 214);
+  border-radius: 45%
+}
+
+.dad-pic-container {
+  position: relative;
+  left: 1118px;
+  bottom: 645px;
+}
+
+.dad-name {
+  color: rgb(115, 115, 214);
+  position: relative;
+  left: 1215px;
+  bottom: 645px;
+  font-size: 20pt;
+}
+
+.dad-table {
+  border: 5px inset rgb(240, 118, 118);
+  width: 38%;
+  background-color: rgb(115, 115, 214);
+}
+
+.dad-table-container {
+  position: relative;
+  bottom: 1140px;
+  left: 560px;
+}
+
+.dad-summary-header {
+  color:rgb(115, 115, 214);
+}
+
+.dad-summary {
+  color: rgb(240, 118, 118)
+}
+
+.dad-summary-container {
+  position: relative;
+  left: 561px;
+  bottom: 1128px;
+  width: 38%;
+}
+
+.dad-vh {
+  color: rgb(115, 115, 214);
+}
+
+.dad-vh-container {
+  position: relative;
+  left: 1px;
+  bottom: 1517px;
+}
+
+
+.dad-v-container {
+  position: relative;
+  left: 01px;
+  bottom: 1455px;
+}
+
+.dad-section-container {
+  position: relative;
+  top: 25px;
+}
+
+.contacts-container{
+  text-align: center;
+  color:white;
+  position: relative;
+  bottom: 1300px;
+}
+
+.contacts-header {
+  font-size: 30pt;
+  color: rgb(240, 118, 118)
+}
+
+.con-names {
+  align-self:flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: white;
+}
+
+.emails {
+  color: black;
+  position: relative;
+  bottom: 1325px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.numbers {
+  color: black;
+  position:relative;
+  bottom: 1360px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mom-table-cells {
+  border: 3px inset rgb(115, 115, 214);
+  padding: 6px;
+  color: white
+}
+
+.dad-table-header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20pt;
+  color: rgb(240, 118, 118)
+}
+
+.dad-table-cells {
+  border: 3px inset rgb(240, 118, 118);
+  padding: 6px;
+  color: white
+}
+
+.mom-con-name-select {
+  color: rgb(240, 118, 118)
+}
+
+.dad-con-name-select {
+  color: rgb(115, 115, 214)
 }
