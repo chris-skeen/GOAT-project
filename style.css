@@ -1,8 +1,13 @@
 body {
-  background-image: url(images/mountain.jpg);
-  background-size: 320%;
+  background: rgb(0, 152, 238);
+  background-image: linear-gradient(
+    200deg,
+    rgb(9, 45, 65),
+    rgb(250, 124, 142)
+  );
   background-repeat: no-repeat;
-
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .main-header-container {
